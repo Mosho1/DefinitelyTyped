@@ -1469,7 +1469,7 @@ export function TSEnumMember(id: Identifier | StringLiteral, initializer?: Expre
 export function TSExportAssignment(expression: Expression): TSExportAssignment;
 export function TSExpressionWithTypeArguments(expression: TSEntityName, typeParameters?: TypeParameterInstantiation): TSExpressionWithTypeArguments;
 export function TSExternalModuleReference(expression: StringLiteral): TSExternalModuleReference;
-export function TSFunctionType(typeParameters?: TypeParameterDeclaration, typeAnnotation?: TSTypeAnnotation): TSFunctionType;
+export function TSFunctionType(typeParameters?: TypeParameterDeclaration, parameters?: Array<Identifier | RestElement>, typeAnnotation?: TSTypeAnnotation): TSFunctionType;
 export function TSImportEqualsDeclaration(id: Identifier, moduleReference: TSEntityName | TSExternalModuleReference): TSImportEqualsDeclaration;
 export function TSIndexSignature(parameters: Identifier[], typeAnnotation?: TSTypeAnnotation): TSIndexSignature;
 export function TSIndexedAccessType(objectType: TSType, indexType: TSType): TSIndexedAccessType;
