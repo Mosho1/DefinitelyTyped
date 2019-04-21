@@ -4,6 +4,7 @@
 //                 Sam Baxter <https://github.com/baxtersa>
 //                 Marvin Hagemeister <https://github.com/marvinhagemeister>
 //                 Boris Cherny <https://github.com/bcherny>
+//                 Sharon Rolel <https://github.com/Mosho1>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
